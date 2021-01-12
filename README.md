@@ -1,0 +1,1 @@
+This code will be my practice assignment on The Odin Project to recreate the google homepage
