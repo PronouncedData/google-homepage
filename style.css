@@ -1,3 +1,17 @@
-p {
-    color: red; 
+#searchbar-input {
+    border-radius: 25px;
+}
+
+ul {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #000; 
+    opacity: 0.75;
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+li {
+    display: inline; 
 }
