@@ -2,16 +2,18 @@
     border-radius: 25px;
 }
 
-ul {
+.top-bar {
+    display: grid; 
+    grid-template-columns: repeat(20, 1fr); 
     font-family: Arial, sans-serif;
     font-size: 13px;
     color: #000; 
     opacity: 0.75;
-    list-style-type: none; 
     margin: 0; 
     padding: 0; 
 }
 
-li {
-    display: inline; 
+#google-logo {
+    position: relative;
+    top: 100px; 
 }
