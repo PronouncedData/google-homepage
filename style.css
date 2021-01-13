@@ -7,7 +7,7 @@
     opacity: 0.75;
     margin: 30px 20px 30px 30px; 
     padding: 0; 
-    grid-template-areas: "About Store . . . . . . . . . . . .  . Gmail Images . . .";
+    grid-template-areas: "About Store . . . . . . . . . . . .  . Gmail Images Apps . .";
 }
 
 .About {
@@ -33,6 +33,15 @@
 .logo-and-search {
     position: relative; 
     top: 130px;
+}
+
+.Apps {
+    grid-area: Apps; 
+    display: grid;
+    grid-template-columns: repeat(3,4px); 
+    grid-template-rows: repeat(3,4px);
+    grid-gap: 3px; 
+    justify-self: center; 
 }
 
 #google-logo {
