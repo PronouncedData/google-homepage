@@ -1,7 +1,3 @@
-#searchbar-input {
-    border-radius: 25px;
-}
-
 .top-bar {
     display: grid; 
     grid-template-columns: repeat(20, 1fr); 
@@ -9,11 +5,49 @@
     font-size: 13px;
     color: #000; 
     opacity: 0.75;
-    margin: 0; 
+    margin: 30px 20px 30px 30px; 
     padding: 0; 
+    grid-template-areas: "About Store . . . . . . . . . . . .  . Gmail Images . . .";
+}
+
+.About {
+    grid-area: About; 
+    justify-self: center;
+}
+
+.Store{
+    grid-area: Store;
+    justify-self: center;
+}
+
+.Gmail{
+    grid-area: Gmail;
+    justify-self: right;
+}
+
+.Images {
+    grid-area: Images;
+    justify-self: right;
+}
+
+.logo-and-search {
+    position: relative; 
+    top: 100px;
 }
 
 #google-logo {
-    position: relative;
-    top: 100px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
+
+#searchbar {
+    display: block; 
+    border-radius: 25px;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 30px;
+    width: 25vw; 
+    height: 5vh; 
+}
+
