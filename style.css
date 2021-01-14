@@ -18,7 +18,7 @@
 
 .Store{
     grid-area: Store;
-    justify-self: center;
+    justify-self: left;
 }
 
 .Gmail{
@@ -47,8 +47,8 @@
 
 .ProfilePicture {
     grid-area: ProfilePicture; 
-    width: 50px; 
-    height: 50px; 
+    width: 40px; 
+    height: 40px; 
     position: relative; 
     overflow: hidden; 
     border-radius: 50%;
@@ -59,6 +59,25 @@
     display: inline; 
     height: 100%; 
    margin-right: 0 auto;
+}
+
+#search-button {
+    display: inline-block; 
+    margin-left: 41vw; 
+    margin-top: 30px; 
+    border: none; 
+    height: 25px; 
+    width: 150px; 
+    background-color: #f8f9fa; 
+}
+
+#lucky-button {
+    display: inline-block; 
+    margin-left: 2vw; 
+    border: none; 
+    height: 25px; 
+    width: 150px; 
+    background-color: #f8f9fa; 
 }
 
 #google-logo {
