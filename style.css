@@ -2,6 +2,14 @@ html, body{
     margin: 0; 
 }
 
+#magnifying-glass {
+    position: absolute; 
+    width:15px; 
+    margin-left: 710px; 
+    margin-top: 337px; 
+    z-index: 1;
+}
+
 .top-bar {
     display: grid; 
     grid-template-columns: repeat(20, 1fr); 
