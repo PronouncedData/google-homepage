@@ -1,3 +1,7 @@
+html, body{
+    margin: 0; 
+}
+
 .top-bar {
     display: grid; 
     grid-template-columns: repeat(20, 1fr); 
@@ -5,7 +9,7 @@
     font-size: 13px;
     color: #000; 
     opacity: 0.75;
-    margin: 0px 20px 30px 30px; 
+    margin: 5px 20px 30px 30px; 
     padding: 0; 
     align-items: center;
     grid-template-areas: "About Store . . . . . . . . . . . . .  . Gmail Images Apps ProfilePicture";
@@ -58,7 +62,74 @@
     width: auto; 
     display: inline; 
     height: 100%; 
-   margin-right: 0 auto;
+    margin-right: 0 auto;
+}
+
+.bottom-bar {
+    border-style: solid; 
+    border-color: rgb(226, 219, 219);
+    border-width: 2px; 
+    background: #f2f2f2;
+    margin-top: 513px; 
+    width: 99.8vw; 
+    height: 40px; 
+    display: table; 
+}
+
+.bottom-list{
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #000; 
+    opacity: 0.75;
+    margin-top: 12px; 
+}
+
+#carbon-text{
+    display: inline-block; 
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+#carbon-picture {
+    display: inline-block; 
+    width: 15px; 
+    height: 15px; 
+    margin-left: 400px; 
+}
+
+#advertising {
+    display: inline-block; 
+    margin-left: 50px; 
+}
+
+#business {
+    display: inline-block; 
+    margin-left: 50px; 
+
+}
+#privacy {
+    display: inline-block; 
+    margin-left: 650px; 
+
+}
+#terms {
+    display: inline-block; 
+    margin-left: 50px; 
+
+}
+#settings {
+    display: inline-block; 
+    margin-left: 50px; 
+
+}
+
+#how-search-works {
+    display: inline-block; 
+    margin-left: 50px; 
+
 }
 
 #search-button {
